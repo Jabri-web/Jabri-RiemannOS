@@ -1,5 +1,7 @@
 # Jabri-RiemannOS: Lambda from Riemann Zeros
-
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
+   [![H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)]()
+   [![Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)]()
 [[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Jabri.ipynb)
 
 **DOI:** [10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)

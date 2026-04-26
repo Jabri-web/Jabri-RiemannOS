@@ -1,4 +1,8 @@
+# Jabri-RiemannOS: Lambda from Riemann Zeros
 
+[[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Jabri.ipynb)
+
+**DOI:** [10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)
 
 **No free parameters. No fitting. Only input: zeros of ζ(s).**
 
@@ -13,13 +17,13 @@
 | `Zx_Jabri_Universe.png` | **Figure 1**: Evolution of Z(x) from Big Bang to present |
 | `Z_zeros.png` | Distribution of first Riemann zeros used |
 | `Z_t01.png` | Supporting plot: V'' > 0 during inflation |
-| `code/Zx_Jabri.ipynb` | Python code to reproduce Figure 1 from scratch |
+| `Zx_Jabri.ipynb` | Python code to reproduce Figure 1 from scratch |
 
 ---
 
 ### Reproduce Figure 1 in 15 Seconds
 
-1. Open `code/Zx_Jabri.ipynb` in Google Colab
+1. Click the `Open in Colab` badge above
 2. Run all cells: `Runtime` → `Run all`
 3. Output: `Zx_Jabri_Universe.png` + values `Z(12)=1.200000`, `Z(phi)=-0.034952`
 

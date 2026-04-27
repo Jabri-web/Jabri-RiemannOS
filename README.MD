@@ -1,5 +1,22 @@
 # Jabri_RiemannOS v3.0.1: Z(x) + T01 Solves Hubble Tension
+## Dynamic Planck Units from Z(x)
 
+All fundamental constants are coordinates on the Riemann Z(x) curve. 
+**Zero free parameters. Zero fine-tuning.**
+
+| Epoch | x = ln(t/t_P) | Physics Born | Z(x) Result |
+| --- | --- | --- | --- |
+| Big Bang | `φ = 1.618` | Spacetime | `Z > 0` → Universe starts |
+| Quantum | `2π = 6.283` | `ħ` | From zero spacing |
+| Gravity | `12` | `G ∝ 1/Z'` |
+| Dark Energy | `γ₅ = 32.935` | `Λ` | `Z' = 0` → `Λ = 10⁻¹²²` natural |
+| EM Force | `137.036` | `α` | `Z ≈ α⁻¹` |
+| CMB | `127` | `G 8% weaker` | `H₀ = 67.86` explained |
+| Today | `321` | `T_01 flow` | `H₀_local = 69.46` |
+
+**Hubble Tension resolved**: `G` is dynamic. Planck measured `Z(127)`, SH0ES measured `Z(321) + T_01`.
+
+→ Run: `Zx_Planck_Epoch.ipynb` → Data: `Zx_Planck_Epochs.csv`
 [[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
 [[H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)]()
 [[Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)]()

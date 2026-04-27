@@ -25,7 +25,7 @@ All fundamental constants are coordinates on the Riemann Z(x) curve.
 | CMB | `127` | `G 8% weaker` | `H₀ = 67.86` explained |
 | Today | `321` | `T_01 flow` | `H₀_local = 69.46` |
 
-[Z(x) Planck Movie](Zx_Planck_Movie.png)
+[Z(x) Planck Movie](Zx_Plank_Movie.png)
 *Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
 
 ---
@@ -53,4 +53,31 @@ All fundamental constants are coordinates on the Riemann Z(x) curve.
 | --- | --- |
 | `Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
 | `Zx_Planck_Epoch.ipynb` | Derives Planck units `ħ,G,Λ,α` from Z(x) |
-|
+| `Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
+| `Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
+| `Zx_Jabri_Universe.png` | Additional figure: Z(x) universe mapping |
+| `Z_t01.png` | Figure: T01 phase transition |
+| `Z_zeros.png` | Figure: Riemann zeros γₙ |
+| `Z_total_v1.pdf` | Original v1.0 paper |
+
+## Reproduce in 15 Seconds
+1. Click `Open in Colab` badge above
+2. Run all: `Runtime → Run all`
+3. Output: `Universe_now.png` + `Zx_Plank_Movie.png`
+
+## Falsifiability
+If DESI-3 or CMB-S4 measure w_de ≠ -1.03 ± 0.01, model is dead.  
+If LHC finds ΔG/G = 0 at 41.9 GeV, model is dead.
+
+## Citation
+
+```bibtex
+@software{Jabri_RiemannOS_2026,
+  author       = {Jabri, A.J.},
+  title        = {Jabri_RiemannOS v3.0.1: Z(x) + T01 Resolves Hubble Tension with Zero Free Parameters},
+  version      = {3.0.1},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19717561},
+  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
+}

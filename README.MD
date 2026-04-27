@@ -16,15 +16,12 @@ Resolves CMB Planck vs SH0ES tension. Matches all DESI 2024 DR1 data points. Der
 All fundamental constants are coordinates on the Riemann Z(x) curve. 
 **Zero free parameters. Zero fine-tuning.**
 
-| Epoch | x = ln(t/t_P) | Physics Born | Z(x) Result |
+| Stage | a(t) | α | ħ [J·s] | G [m³/kg/s²] | Λ [1/s²] |
 | --- | --- | --- | --- |
-| Big Bang | `φ = 1.618` | Spacetime | `Z > 0` → Universe starts |
-| Quantum | `2π = 6.283` | `ħ` | From zero spacing |
-| Gravity | `12` | `G ∝ 1/Z'` | Gravity born |
-| Dark Energy | `γ₅ = 32.935` | `Λ` | `Z' = 0` → `Λ = 10⁻¹²²` natural |
-| EM Force | `137.036` | `α` | `Z ≈ α⁻¹` |
-| CMB | `127` | `G 8% weaker` | `H₀ = 67.86` explained |
-| Today | `321` | `T_01 flow` | `H₀_local = 69.46` |
+| Inflation | 1e-32 | 0.0426 | 6.582e-16 | 6.674e-11 | 2.0e61 |
+| Nucleosynthesis | 1e-9 | 0.0371 | 3.291e-16 | 6.674e-11 | 1.0e36 |
+| **CMB** | **1/1100** | **0.00729** | **1.055e-34** | **6.674e-11** | **2.0e-35** |
+| **Today** | **1.0** | **0.00729** | **1.055e-34** | **6.674e-11** | **1.1e-52** |
 
 ![Z(x) Planck Movie](Zx_Planck_Movie.png)
 *Figure 2: All Planck epochs as coordinates on Z(x). Each colored dot = birth of a physical law.*
@@ -94,13 +91,19 @@ If H(z) at z>3 deviates from `Hz_RiemannOS_0.001.csv` by >1%, model is dead.
 If LHC finds ΔG/G = 0 at 41.9 GeV, model is dead.
 
 ## Citation
-If you use `Jabri_RiemannOS` or the dataset, please cite:
+
+If you use Jabri_RiemannOS or the dataset, please cite:
+
+<details>
+<summary><b>Click to show BibTeX</b></summary>
 
 ```bibtex
 @software{Jabri_RiemannOS_2026,
-  author = {Jabri, A.J.},
-  title = {Jabri_RiemannOS v3.0.1: Z(x) + T01 Resolves Hubble Tension with Zero Free Parameters},
-  version = {3.0.1},
-  year = {2026},
-  publisher = {Zenodo},
-  doi =
+  author       = {Jabri, A.J.},
+  title        = {Jabri_RiemannOS v3.0.1: Z(x) + T01 Resolves Hubble Tension with Zero Free Parameters},
+  version      = {3.0.1},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19717561},
+  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
+}

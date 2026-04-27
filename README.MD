@@ -27,8 +27,8 @@ All fundamental constants are coordinates on the Riemann Z(x) curve.
 | CMB | `127` | `G 8% weaker` | `H₀ = 67.86` explained |
 | Today | `321` | `T_01 flow` | `H₀_local = 69.46` |
 
-[Z(x) Planck Movie](Zx_Planck_Movie.png)
-*Figure 2: All Planck epochs as coordinates on Z(x). Each colored dot = birth of a physical law.*
+[Z(x) Planck Movie](Zx_Plank_Movie.png)
+*Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
 
 **Hubble Tension resolved**: `G` is dynamic. Planck measured `Z(127)`, SH0ES measured `Z(321) + T_01`.
 
@@ -39,7 +39,7 @@ All fundamental constants are coordinates on the Riemann Z(x) curve.
 ## Key Results v3.0.1
 
 [Universe now](Universe_now.png)
-*Figure 1: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
+*Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
 
 1. **CMB**: `H(1100) = 1.387e6 km/s/Mpc` → matches Planck 2018: 67.36 ± 0.54
 2. **Local**: `H0 = 69.56 km/s/Mpc` at `z=0` → explains SH0ES 73.04 via T_01 flow
@@ -72,8 +72,11 @@ No fitting. No tuning. Only input: zeros of ζ(s).
 | `Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01`. Generates plot + CSV |
 | `Zx_Planck_Epoch.ipynb` | Derives Planck units `ħ,G,Λ,α` from Z(x) coordinates |
 | `Zx_Planck_Epochs.csv` | Dataset: Planck epochs mapped to x, Z(x), Z'(x) |
-| `Zx_Planck_Movie.png` | Figure: All fundamental constants on Z(x) curve |
+| `Zx_Plank_Movie.png` | Figure: All fundamental constants on Z(x) curve |
 | `Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
+| `Zx_Jabri_Universe.png` | Additional figure: Z(x) universe mapping |
+| `Z_t01.png` | Figure: T01 phase transition |
+| `Z_zeros.png` | Figure: Riemann zeros γₙ |
 | `Hz_RiemannOS_0.001.csv` | Full dataset: 2806 rows, H(z) from z=0.001 to z=1100 |
 | `Z_total_v1.pdf` | Original v1.0 paper: Lambda from Riemann Zeros |
 | `CITATION.cff` | Machine-readable citation for v3.0.1 |
@@ -81,7 +84,7 @@ No fitting. No tuning. Only input: zeros of ζ(s).
 ## Reproduce in 15 Seconds
 1. Click `Open in Colab` badge above
 2. Run all: `Runtime → Run all`
-3. Output: `Universe_now.png` + `Hz_RiemannOS_0.001.csv` + `Zx_Planck_Movie.png`
+3. Output: `Universe_now.png` + `Zx_Plank_Movie.png`
 
 **Dependencies**: `numpy`, `matplotlib`, `mpmath`, `pandas`. Auto-installed.
 
@@ -95,22 +98,4 @@ No fitting. No tuning. Only input: zeros of ζ(s).
 ## Falsifiability
 If DESI-3 or CMB-S4 measure w_de ≠ -1.03 ± 0.01, model is dead.  
 If H(z) at z>3 deviates from `Hz_RiemannOS_0.001.csv` by >1%, model is dead.  
-If LHC finds ΔG/G = 0 at 41.9 GeV, model is dead.
-
-## Citation
-
-If you use Jabri_RiemannOS or the dataset, please cite:
-
-<details>
-<summary><b>Click to show BibTeX</b></summary>
-
-```bibtex
-@software{Jabri_RiemannOS_2026,
-  author       = {Jabri, A.J.},
-  title        = {Jabri_RiemannOS v3.0.1: Z(x) + T01 Resolves Hubble Tension with Zero Free Parameters},
-  version      = {3.0.1},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.19717561},
-  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
-}
+If LHC finds ΔG/G = 0 at 41.9

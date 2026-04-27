@@ -34,6 +34,9 @@ All fundamental constants are coordinates on the Riemann Z(x) curve.
 
 ## Key Results v3.0.1
 
+![Universe now](Universe_now.png)
+*Figure 1: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
+
 1. **CMB**: `H(1100) = 1.387e6 km/s/Mpc` → matches Planck 2018: 67.36 ± 0.54
 2. **Local**: `H0 = 69.56 km/s/Mpc` at `z=0` → explains SH0ES 73.04 via T_01 flow
 3. **DESI 2024 DR1**: All 6 BAO points `z=0.51` to `z=2.33` within 1σ

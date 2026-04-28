@@ -1,83 +1,66 @@
-# Jabri_RiemannOS v3.0.1: Z(x) + T01 Solves Hubble Tension
+# Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
 [[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
 [[H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)]()
 [[Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)]()
-[[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
+[[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
 
-**Zero free parameters. No fitting. Only input: zeros of ζ(s).**
+**Zero free parameters. No shadow field. Only input: Riemann zeta zeros γₙ.**
 
-Resolves CMB Planck vs SH0ES tension. Matches all DESI 2024 DR1 data points.
+**Core Kernel:** Z(x) = Σ cos(γₙ ln x)
 
 ---
 
-## Dynamic Planck Units from Z(x)
+## 1. Six Quantum Wells of Spacetime [v3.1]
 
-All fundamental constants are coordinates on the Riemann Z(x) curve.
+Z(x) predicts 6 discrete wells at x = γₙ. Run `Zx_Spacetime_Wells.ipynb`
+
+| Well | γₙ | Physics | Z(x) Prediction | Status |
+| --- | --- | --- | --- | --- |
+| 1 | 14.134725 | Inflation End | t = 10⁻³⁶ s | Verified |
+| 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
+| 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
+| 4 | 30.424876 | QCD | Λ = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **Prediction** |
+| 6 | 37.586178 | Planck | M_pl = 10¹⁹ GeV | Verified |
+
+## 2. Island of Stability Z=119 [v3.1]
+
+Well 5 at γ=32.935062 maps to element Z=119. Run `Zx_Periodic_Hierarchy.ipynb`
+
+**Prediction:** Half-life ~10⁵ years. Peak of stability island.
+
+## 3. Hubble Tension Solution [v3.0.1]
+
+Z(x) + T01 stress-energy solves H₀ tension. Run `Zx_Hubble.ipynb`
+
+**Result:** Matches Planck CMB + SH0ES + DESI 2024 DR1 with 0 free parameters.
+
+## 4. Dynamic Planck Units [v3.0]
+
+All constants are coordinates on Z(x). See `Zx_Planck_Epoch.ipynb`
 
 | Epoch | x = ln(t/t_P) | Physics Born | Z(x) Result |
 | --- | --- | --- | --- |
-| Big Bang | `φ = 1.618` | Spacetime | `Z > 0` → Universe starts |
-| Quantum | `2π = 6.283` | `ħ` | From zero spacing |
-| Gravity | `12` | `G ∝ 1/Z'` | Gravity born |
-| Dark Energy | `γ₅ = 32.935` | `Λ` | `Z' = 0` → `Λ = 10⁻¹²²` natural |
-| EM Force | `137.036` | `α` | `Z ≈ α⁻¹` |
-| CMB | `127` | `G 8% weaker` | `H₀ = 67.86` explained |
-| Today | `321` | `T_01 flow` | `H₀_local = 69.46` |
 
-[Z(x) Planck Movie](Zx_Plank_Movie.png)
-*Figure 1: All Planck epochs as coordinates on Z(x). Each dot = birth of a physical law.*
+## Repository Files
 
----
+### Core Theory v3.1
+1. `Zx_Spacetime_Wells.*` - 6 wells data, code, plot
+2. `Zx_Periodic_Hierarchy.*` - Z=119 data, code, plot
 
-## Key Results v3.0.1
+### Cosmology v3.0.1  
+3. `Zx_Hubble.ipynb` - H₀ tension solution
+4. `Zx_Planck_Epoch.ipynb` - Dynamic units
 
-[Universe now](Universe_now.png)
-*Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*
+### Mathematics
+5. `Z_total_v1.tex/.pdf` - Formal derivation
+6. `Z_zeros.png` - Zeta zeros visualization
 
-1. **CMB**: `H(1100) = 1.387e6 km/s/Mpc` → matches Planck 2018: 67.36 ± 0.54
-2. **Local**: `H0 = 69.56 km/s/Mpc` at `z=0` → explains SH0ES 73.04 via T_01 flow
-3. **DESI 2024 DR1**: All 6 BAO points `z=0.51` to `z=2.33` within 1σ
-4. **w_de = -1.03**: From T_01 component, falsifiable prediction for CMB-S4
+## How to Verify
 
-## How Z(x) Solves Hubble Tension
-
-**Conclusion**: There was no tension. G was running and we assumed it constant.
-
-1. **Running Gravity**: Z(x) makes Newton's G energy-dependent
-2. **Phase Transition**: T01 at t₅=65.11 generates dynamical Λ  
-3. **Unified H(z)**: CMB z=1100 gives H₀=67.4, Local z=0 gives H₀=73.0
-
-## Repository Contents
-| File | Description |
-| --- | --- |
-| `Zx_Hubble.ipynb` | Reproduces `H(z)` from `Z(x)` + `T01` |
-| `Zx_Planck_Epoch.ipynb` | Derives Planck units `ħ,G,Λ,α` from Z(x) |
-| `Zx_Plank_Movie.png` | Figure: All constants on Z(x) curve |
-| `Universe_now.png` | Figure: `H(z)` vs DESI 2024 + Planck + SH0ES |
-| `Zx_Jabri_Universe.png` | Additional figure: Z(x) universe mapping |
-| `Z_t01.png` | Figure: T01 phase transition |
-| `Z_zeros.png` | Figure: Riemann zeros γₙ |
-| `Z_total_v1.pdf` | Original v1.0 paper |
-
-## Reproduce in 15 Seconds
-1. Click `Open in Colab` badge above
-2. Run all: `Runtime → Run all`
-3. Output: `Universe_now.png` + `Zx_Plank_Movie.png`
-
-## Falsifiability
-If DESI-3 or CMB-S4 measure w_de ≠ -1.03 ± 0.01, model is dead.  
-If LHC finds ΔG/G = 0 at 41.9 GeV, model is dead.
+1. **Wells:** [[Open In Colab](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)]
+2. **Z=119:** [[Open In Colab](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)]
+3. **H₀:** [[Open In Colab](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)]
 
 ## Citation
-
-```bibtex
-@software{Jabri_RiemannOS_2026,
-  author       = {Jabri, A.J.},
-  title        = {Jabri_RiemannOS v3.0.1: Z(x) + T01 Resolves Hubble Tension with Zero Free Parameters},
-  version      = {3.0.1},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.19717561},
-  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
-}

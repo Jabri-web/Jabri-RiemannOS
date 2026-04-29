@@ -1,15 +1,17 @@
 # Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
-**DOI:** [10.5281/zenodo.19717561](https://doi.org/10.5281/zenodo.19717561)  
-[![H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v301)
-[![Dark Energy](https://img.shields.io/badge/Dark_Energy-w=-1.03-orange)](#1-six-quantum-wells-of-spacetime-v31)
-[![Z=119](https://img.shields.io/badge/Z=119-Island_Predicted-blue)](#2-island-of-stability-z119-v31)
-[![Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)](#falsifiability)
+**فصتك فصة** 🌹
+
+**DOI:** [10.5281/zenodo.XXXXX](https://doi.org/10.5281/zenodo.XXXXX)  
+[[H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v31)
+[[Dark Energy](https://img.shields.io/badge/Dark_Energy-w=-1.03-orange)](#1-six-quantum-wells-of-spacetime-v31)
+[[Z=119](https://img.shields.io/badge/Z=119-Island_Predicted-blue)](#2-island-of-stability-z119-v31)
+[[Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)](#falsifiability)
 
 ## Run Live
-[![Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
-[![Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)
-[![Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
+[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
+[[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)
+[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
 
 **Zero free parameters. No shadow field. Only input: Riemann zeta zeros $\gamma_n$.**
 
@@ -44,7 +46,7 @@ Well 5 at $\gamma=32.935062$ maps to element Z=119.
 **Prediction:** Half-life ~10⁵ years. Peak of stability island.  
 *Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
 
-## 3. Hubble Tension Solution [v3.0.1]
+## 3. Hubble Tension Solution [v3.1]
 
 Z(x) + T01 stress-energy solves H₀ tension.
 
@@ -55,7 +57,7 @@ Z(x) + T01 stress-energy solves H₀ tension.
 
 **Result:** $G_{\text{eff}} = G_N/Z'(x)$ → H₀ = 67.4 Planck & 73.0 SH0ES. Tension = 0.0σ
 
-## 4. Dynamic Planck Units [v3.0]
+## 4. Dynamic Planck Units [v3.1]
 
 All constants are coordinates on Z(x).
 
@@ -88,7 +90,7 @@ All constants are coordinates on Z(x).
 1. `Zx_Spacetime_Wells.*` - 6 wells data, code, plot
 2. `Zx_Periodic_Hierarchy.*` - Z=119 data, code, plot
 
-### Cosmology v3.0.1  
+### Cosmology v3.1  
 3. `Zx_Hubble.ipynb` - H₀ tension solution
 4. `Zx_Planck_Epoch.ipynb` - Dynamic units
 
@@ -110,7 +112,7 @@ If H(z) at $z>3$ deviates from predictions by >1%, model is dead.
 If you use this work, please cite:
 
 ```bibtex
-@software{aljabri_2026_riemannos,
+@software{aljabri_2026_riemannos_v31,
   author       = {Al-Jabri, Abdulla},
   title        = {Jabri_RiemannOS: Unified Spacetime, Dark Energy, and 
                   Periodic Table from Riemann Zeros},
@@ -118,6 +120,6 @@ If you use this work, please cite:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v3.1},
-  doi          = {10.5281/zenodo.19717561},
+  doi          = {10.5281/zenodo.XXXXX},
   url          = {https://github.com/jabri62018/Jabri-RiemannOS}
 }

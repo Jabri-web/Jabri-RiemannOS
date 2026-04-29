@@ -1,6 +1,6 @@
 # Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
-**1†61…31„21†7 1†61…31„1 1‡21†91†81†51†7 1†91†81†5** ”9µ5
+**Ù‚ØµØªÙƒ Ù‚ØµØ© ÙˆÙ…Ù„ÙÙƒ Ù…Ù„Ù** ðŸŒ¹
 
 **DOI:** [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX)  
 [[H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v31)
@@ -30,12 +30,12 @@ Z(x) predicts 6 discrete wells at $x = \gamma_n$.
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
 | --- | --- | --- |
-| 1 | 14.134725 | Inflation End | t = 106®30…66­8 s | Verified |
+| 1 | 14.134725 | Inflation End | t = 10â»Â³â¶ s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
-| 4 | 30.424876 | QCD | ¦« = 200 MeV | Verified |
-| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 7½7** |
-| 6 | 37.586178 | Planck | M_pl = 100†16®1 GeV | Verified |
+| 4 | 30.424876 | QCD | Î› = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 âœ“** |
+| 6 | 37.586178 | Planck | M_pl = 10Â¹â¹ GeV | Verified |
 
 ## 2. Island of Stability Z=119 [v3.1]
 
@@ -43,19 +43,19 @@ Well 5 at $\gamma=32.935062$ maps to element Z=119.
 
 ![Periodic Table Zx](Periodic_Table.png)
 
-**Prediction:** Half-life ~106­7 years. Peak of stability island.  
+**Prediction:** Half-life ~10âµ years. Peak of stability island.  
 *Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
 
 ## 3. Hubble Tension Solution [v3.1]
 
-Z(x) + T01 stress-energy solves H6®8 tension.
+Z(x) + T01 stress-energy solves Hâ‚€ tension.
 
 ![Universe Now](Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*
 
-**Result:** $G_{\text{eff}} = G_N/Z'(x)$ ¡ú H6®8 = 67.4 Planck & 73.0 SH0ES. Tension = 0.0¦Ò
+**Result:** $G_{\text{eff}} = G_N/Z'(x)$ â†’ Hâ‚€ = 67.4 Planck & 73.0 SH0ES. Tension = 0.0Ïƒ
 
 ## 4. Dynamic Planck Units [v3.1]
 

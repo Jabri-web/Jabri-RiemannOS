@@ -1,8 +1,8 @@
 # Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
-**ÙØµØªÙƒ ÙØµØ©** ðŸŒ¹
+**1†61…31„21†7 1†61…31„1 1‡21†91†81†51†7 1†91†81†5** ”9µ5
 
-**DOI:** [10.5281/zenodo.XXXXX](https://doi.org/10.5281/zenodo.XXXXX)  
+**DOI:** [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX)  
 [[H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v31)
 [[Dark Energy](https://img.shields.io/badge/Dark_Energy-w=-1.03-orange)](#1-six-quantum-wells-of-spacetime-v31)
 [[Z=119](https://img.shields.io/badge/Z=119-Island_Predicted-blue)](#2-island-of-stability-z119-v31)
@@ -30,12 +30,12 @@ Z(x) predicts 6 discrete wells at $x = \gamma_n$.
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
 | --- | --- | --- |
-| 1 | 14.134725 | Inflation End | t = 10â»Â³â¶ s | Verified |
+| 1 | 14.134725 | Inflation End | t = 106®30…66­8 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
-| 4 | 30.424876 | QCD | Î› = 200 MeV | Verified |
-| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 âœ“** |
-| 6 | 37.586178 | Planck | M_pl = 10Â¹â¹ GeV | Verified |
+| 4 | 30.424876 | QCD | ¦« = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 7½7** |
+| 6 | 37.586178 | Planck | M_pl = 100†16®1 GeV | Verified |
 
 ## 2. Island of Stability Z=119 [v3.1]
 
@@ -43,19 +43,19 @@ Well 5 at $\gamma=32.935062$ maps to element Z=119.
 
 ![Periodic Table Zx](Periodic_Table.png)
 
-**Prediction:** Half-life ~10âµ years. Peak of stability island.  
+**Prediction:** Half-life ~106­7 years. Peak of stability island.  
 *Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
 
 ## 3. Hubble Tension Solution [v3.1]
 
-Z(x) + T01 stress-energy solves Hâ‚€ tension.
+Z(x) + T01 stress-energy solves H6®8 tension.
 
 ![Universe Now](Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*
 
-**Result:** $G_{\text{eff}} = G_N/Z'(x)$ â†’ Hâ‚€ = 67.4 Planck & 73.0 SH0ES. Tension = 0.0Ïƒ
+**Result:** $G_{\text{eff}} = G_N/Z'(x)$ ¡ú H6®8 = 67.4 Planck & 73.0 SH0ES. Tension = 0.0¦Ò
 
 ## 4. Dynamic Planck Units [v3.1]
 
@@ -64,62 +64,4 @@ All constants are coordinates on Z(x).
 ![Z(x) Planck Movie](Zx_Plank_Movie.png)
 
 *Figure 3: All fundamental constants on Z(x) curve. EM born at x=137.036*  
-*See: [`Zx_Planck_Epoch.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb)*
-
-| Epoch | $x = \ln(t/t_P)$ | Physics Born | Z(x) Result |
-| --- | --- | --- | --- |
-| Big Bang | $\phi = 1.618$ | Spacetime | $Z > 0$ â†’ Universe starts |
-| Quantum | $2\pi = 6.283$ | $\hbar$ | From zero spacing |
-| Gravity | $12$ | $G \propto 1/Z'$ | Gravity born |
-| Dark Energy | $\gamma_5 = 32.935$ | $\Lambda$ | $Z' = 0$ â†’ $w = -1.03$ |
-| EM Force | $137.036$ | $\alpha$ | $Z \approx \alpha^{-1}$ |
-| CMB | $127$ | $G$ 8% weaker | $H_0 = 67.4$ explained |
-| Today | $321$ | $T_{01}$ flow | $H_{0,\text{local}} = 73.0$ |
-
-## 5. T_00 and T_01 Energy Flow [v3.1]
-
-![T_00 and T_01](Z_t01.png)
-
-*Figure 4: Energy density $T_{00}$ and energy flow $T_{01}$ from $Z(x)$. Local flow explains SH0ES vs Planck discrepancy.*
-
----
-
-## Repository Files
-
-### Core Theory v3.1
-1. `Zx_Spacetime_Wells.*` - 6 wells data, code, plot
-2. `Zx_Periodic_Hierarchy.*` - Z=119 data, code, plot
-
-### Cosmology v3.1  
-3. `Zx_Hubble.ipynb` - Hâ‚€ tension solution
-4. `Zx_Planck_Epoch.ipynb` - Dynamic units
-
-### Mathematics
-5. `Z_total_v1.tex/.pdf` - Formal derivation
-6. `Z_zeros.png` - Zeta zeros visualization
-
-## Falsifiability
-If DESI-3 or CMB-S4 measure $w_{\text{de}} \neq -1.03 \pm 0.01$, model is dead.  
-If GSI/JINR synthesize Z=119 and $\tau < 1$ year, model is dead.  
-If H(z) at $z>3$ deviates from predictions by >1%, model is dead.  
-
-**This is science. No shadow field. No escape.**
-
----
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@software{aljabri_2026_riemannos_v31,
-  author       = {Al-Jabri, Abdulla},
-  title        = {Jabri_RiemannOS: Unified Spacetime, Dark Energy, and 
-                  Periodic Table from Riemann Zeros},
-  month        = apr,
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v3.1},
-  doi          = {10.5281/zenodo.XXXXX},
-  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
-}
+*See: [`Zx_Planck_Epoch.ipynb`](https://col

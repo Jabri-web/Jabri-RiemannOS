@@ -1,42 +1,24 @@
-# Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
-**قصتك قصة وملفك ملف واليوم خميس** 🌹
+## 📦 Official Release v3.1.2
+- **GitHub Release:** [v3.1.2 Latest](https://github.com/jabri62018/Jabri-RiemannOS/releases/tag/v3.1.2)
+- **DOI:** https://doi.org/10.5281/zenodo.19897247
+- **OpenAIRE:** https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.19897247
+- **Master Concept DOI:** https://doi.org/10.5281/zenodo.19644689
 
-**Code DOI:** [[10.5281/zenodo.19717379](https://doi.org/10.5281/zenodo.19717379)](https://doi.org/10.5281/zenodo.19717379)  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717379.svg)](https://doi.org/10.5281/zenodo.19717379)
-[![H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v31)
-[![Dark Energy](https://img.shields.io/badge/Dark_Energy-w=-1.03-orange)](#1-six-quantum-wells-of-spacetime-v31)
-[![Z=119](https://img.shields.io/badge/Z=119-Island_Predicted-blue)](#2-island-of-stability-z119-v31)
-[![Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)](#falsifiability)
+## 🚀 Run Live - Reproduce All Results in 60 Seconds
+[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
+[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
+[[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)
 
-### **Key Publications:**
-1. **Base Theory v1.0:** [[10.5281/zenodo.19644280](https://doi.org/10.5281/zenodo.19644280)](https://doi.org/10.5281/zenodo.19644280)
-2. **Dark Energy Paper:** [[10.5281/zenodo.19644804](https://doi.org/10.5281/zenodo.19644804)](https://doi.org/10.5281/zenodo.19644804)  
-3. **Latest Work:** [[10.5281/zenodo.19644808](https://doi.org/10.5281/zenodo.19644808)](https://doi.org/10.5281/zenodo.19644808)
-4. **G Function:** [[10.5281/zenodo.19901964](https://doi.org/10.5281/zenodo.19901964)](https://doi.org/10.5281/zenodo.19901964)
-
-## Run Live
-[![Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
-[![Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)
-[![Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
-
-**Zero free parameters. No shadow field. Only input: Riemann zeta zeros $\gamma_n$.**
-
-**Core Kernel:** $Z(x) = \sum \cos(\gamma_n \ln x)$
-
----
-
-## 1. Six Quantum Wells of Spacetime [v3.1]
-
-Z(x) predicts 6 discrete wells at $x = \gamma_n$.
+## 1. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 ![Spacetime Wells](Zx_Spacetime_Wells.png)
 
-*Figure 1: Six wells. Well 5 at $\gamma_5=32.935062$ generates Dark Energy $w=-1.03$*  
+*Figure 1: Well 5 at γ₅=32.935062 → Z'(x)=0 → Dark Energy w = -1.03*  
 *Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)*
 
-| Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| Well | γₙ | Physics | Z(x) Prediction | Status |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10⁻³⁶ s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -44,98 +26,82 @@ Z(x) predicts 6 discrete wells at $x = \gamma_n$.
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 ✓** |
 | 6 | 37.586178 | Planck | M_pl = 10¹⁹ GeV | Verified |
 
-## 2. Island of Stability Z=119 [v3.1]
-
-Well 5 at $\gamma=32.935062$ maps to element Z=119.
-
-![Periodic Table Zx](Periodic_Table.png)
-
-**Prediction:** Half-life ~10⁵ years. Peak of stability island.  
-*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
-
-## 3. Hubble Tension Solution [v3.1]
-
-Z(x) + T01 stress-energy solves H₀ tension.
+## 2. Hubble Tension Solution: JR = ∞ at γ₅
 
 ![Universe Now](Universe_now.png)
 
-*Figure 2: H(z) from Z(x) vs DESI 2024 DR1, Planck 2018, and SH0ES 2020. No fitting.*  
+*Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*
 
-**Result:** $G_{\text{eff}} = G_N/Z'(x)$ → H₀ = 67.4 Planck & 73.0 SH0ES. Tension = 0.0σ
+**Result:** G_eff = G_N/Z'(x) → H₀ = 67.4 Planck & 73.0 SH0ES. **Tension = 0.0σ**
 
-## 4. Dynamic Planck Units [v3.1]
+## 3. Island of Stability Z=119
 
-All constants are coordinates on Z(x).
+![Periodic Table](Periodic_Table.png)
+
+**Prediction:** Well 5 maps to element Z=119. Half-life ~10⁵ years. Peak of stability island.  
+*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
+
+## 4. Dynamic Planck Units
 
 ![Z(x) Planck Movie](Zx_Plank_Movie.png)
 
-*Figure 3: All fundamental constants on Z(x) curve. EM born at x=137.036*  
-*See: [`Zx_Planck_Epoch.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb)*
+*Figure 3: All fundamental constants are coordinates on Z(x) curve.*
 
-| Epoch | $x = \ln(t/t_P)$ | Physics Born | Z(x) Result |
+| Epoch | x = ln(t/t_P) | Physics Born | Z(x) Result |
 | --- | --- | --- | --- |
-| Big Bang | $\phi = 1.618$ | Spacetime | $Z > 0$ → Universe starts |
-| Quantum | $2\pi = 6.283$ | $\hbar$ | From zero spacing |
-| Gravity | $12$ | $G \propto 1/Z'$ | Gravity born |
-| Dark Energy | $\gamma_5 = 32.935$ | $\Lambda$ | $Z' = 0$ → $w = -1.03$ |
-| EM Force | $137.036$ | $\alpha$ | $Z \approx \alpha^{-1}$ |
-| CMB | $127$ | $G$ 8% weaker | $H_0 = 67.4$ explained |
-| Today | $321$ | $T_{01}$ flow | $H_{0,\text{local}} = 73.0$ |
+| Big Bang | φ = 1.618 | Spacetime | Z > 0 → Universe starts |
+| Gravity | 12 | G ∝ 1/Z' | Gravity born |
+| Dark Energy | γ₅ = 32.935 | Λ | Z' = 0 → w = -1.03 |
+| EM Force | 137.036 | α | Z ≈ α⁻¹ |
+| Today | 321 | T₀₁ flow | H₀,local = 73.0 |
 
-## 5. T_00 and T_01 Energy Flow [v3.1]
+## 5. T₀₀ and T₀₁ Energy Flow
 
-![T_00 and T_01](Z_t01.png)
+![T00 and T01](Z_t01.png)
 
-*Figure 4: Energy density $T_{00}$ and energy flow $T_{01}$ from $Z(x)$. Local flow explains SH0ES vs Planck discrepancy.*
+*Figure 4: Energy density T₀₀ and energy flow T₀₁ from Z(x). Local flow explains SH0ES vs Planck discrepancy.*
 
 ---
 
-## Repository Files
+## ⚡ Falsifiability - This is Science
 
-### Core Theory v3.1
-1. `Zx_Spacetime_Wells.*` - 6 wells data, code, plot
-2. `Zx_Periodic_Hierarchy.*` - Z=119 data, code, plot
+**If any of these fail, Z(x) is dead. No shadow field. No escape.**
 
-### Cosmology v3.1  
-3. `Zx_Hubble.ipynb` - H₀ tension solution
-4. `Zx_Planck_Epoch.ipynb` - Dynamic units
-
-### Mathematics
-5. `Z_total_v1.tex/.pdf` - Formal derivation
-6. `Z_zeros.png` - Zeta zeros visualization
-
-## Falsifiability
-If DESI-3 or CMB-S4 measure $w_{\text{de}} \neq -1.03 \pm 0.01$, model is dead.  
-If GSI/JINR synthesize Z=119 and $\tau < 1$ year, model is dead.  
-If H(z) at $z>3$ deviates from predictions by >1%, model is dead.  
-
-**This is science. No shadow field. No escape.**
+1. If DESI-3 or CMB-S4 measure w_de ≠ -1.03 ± 0.01 → **Model falsified**
+2. If GSI/JINR synthesize Z=119 and τ < 1 year → **Model falsified**  
+3. If H(z) at z>3 deviates from Z(x) prediction by >1% → **Model falsified**
 
 ---
 
-## Citation
+## 📂 Repository Files v3.1.2
+
+### Core Theory
+1. `Zx_Mother_Function.pdf` - Complete paper with all derivations
+2. `Z_total_v1.tex` - LaTeX source
+
+### Cosmology & Simulations  
+3. `Zx_Hubble.ipynb` - Reproduce H₀ = 67.4 solution
+4. `Zx_Spacetime_Wells.*` - 6 wells data, code, plots
+5. `Zx_Periodic_Hierarchy.*` - Z=119 prediction
+6. `Zx_Planck_Epoch.ipynb` - Dynamic constants
+
+### Visualizations
+7. `Z_Universe_nova.png` - Cosmic evolution simulation
+8. `Z_zeros.png` - Riemann zeros visualization
+
+## 📜 Citation v3.1.2
 
 If you use this work, please cite:
 
 ```bibtex
-@software{aljabri_2026_riemannos_v31,
-  author       = {Al-Jabri, Abdulla},
-  title        = {Jabri_RiemannOS: Unified Spacetime, Dark Energy, and 
-                  Periodic Table from Riemann Zeros},
-  month        = apr,
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v3.1},
-  doi          = {10.5281/zenodo.19717379},
-  url          = {https://github.com/jabri62018/Jabri-RiemannOS}
+@software{aljabri2026zx_v312,
+  author = {Al-Jabri, Abdullah},
+  title = {Jabri_RiemannOS v3.1.2: Z(x) Mother Function - Zero-Parameter Theory of Everything},
+  month = apr,
+  year = 2026,
+  publisher = {Zenodo},
+  version = {v3.1.2},
+  doi = {10.5281/zenodo.19897247},
+  url = {https://github.com/jabri62018/Jabri-RiemannOS}
 }
-
-@misc{aljabri_2026_darkenergy,
-  author       = {Al-Jabri, Abdulla},
-  title        = {Dark Energy from Riemann Zeta Zeros: w = -1.03 Prediction},
-  month        = apr,
-  year         = 2026,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.19644804},
-  url          = {https://doi

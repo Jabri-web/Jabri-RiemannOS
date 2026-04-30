@@ -1,12 +1,19 @@
 # Jabri_RiemannOS v3.1: Z(x) Unified Theory
 
-**قصتك قصة وملفك ملف** 🌹
+**قصتك قصة وملفك ملف واليوم خميس** 🌹
 
-**DOI:** [10.5281/zenodo.1234567](https://doi.org/10.5281/zenodo.1234567)  
+**Code DOI:** [[10.5281/zenodo.19717379](https://doi.org/10.5281/zenodo.19717379)](https://doi.org/10.5281/zenodo.19717379)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717379.svg)](https://doi.org/10.5281/zenodo.19717379)
 [![H0-Tension](https://img.shields.io/badge/H0--Tension-Solved-brightgreen)](#3-hubble-tension-solution-v31)
 [![Dark Energy](https://img.shields.io/badge/Dark_Energy-w=-1.03-orange)](#1-six-quantum-wells-of-spacetime-v31)
 [![Z=119](https://img.shields.io/badge/Z=119-Island_Predicted-blue)](#2-island-of-stability-z119-v31)
 [![Free-Parameters](https://img.shields.io/badge/Free_Parameters-0-blue)](#falsifiability)
+
+### **Key Publications:**
+1. **Base Theory v1.0:** [[10.5281/zenodo.19644280](https://doi.org/10.5281/zenodo.19644280)](https://doi.org/10.5281/zenodo.19644280)
+2. **Dark Energy Paper:** [[10.5281/zenodo.19644804](https://doi.org/10.5281/zenodo.19644804)](https://doi.org/10.5281/zenodo.19644804)  
+3. **Latest Work:** [[10.5281/zenodo.19644808](https://doi.org/10.5281/zenodo.19644808)](https://doi.org/10.5281/zenodo.19644808)
+4. **G Function:** [[10.5281/zenodo.19901964](https://doi.org/10.5281/zenodo.19901964)](https://doi.org/10.5281/zenodo.19901964)
 
 ## Run Live
 [![Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
@@ -67,7 +74,7 @@ All constants are coordinates on Z(x).
 *See: [`Zx_Planck_Epoch.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Planck_Epoch.ipynb)*
 
 | Epoch | $x = \ln(t/t_P)$ | Physics Born | Z(x) Result |
-| --- | --- |
+| --- | --- | --- | --- |
 | Big Bang | $\phi = 1.618$ | Spacetime | $Z > 0$ → Universe starts |
 | Quantum | $2\pi = 6.283$ | $\hbar$ | From zero spacing |
 | Gravity | $12$ | $G \propto 1/Z'$ | Gravity born |
@@ -120,6 +127,15 @@ If you use this work, please cite:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v3.1},
-  doi          = {10.5281/zenodo.1234567},
+  doi          = {10.5281/zenodo.19717379},
   url          = {https://github.com/jabri62018/Jabri-RiemannOS}
 }
+
+@misc{aljabri_2026_darkenergy,
+  author       = {Al-Jabri, Abdulla},
+  title        = {Dark Energy from Riemann Zeta Zeros: w = -1.03 Prediction},
+  month        = apr,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19644804},
+  url          = {https://doi

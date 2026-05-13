@@ -1,30 +1,12 @@
-# File Name = CITATION.cff
-# Created for = Jabri-RiemannOS: Z(x) Unified Theory
-# Author = Abdulla Al-Jabri
-# Updated = Wed. 30 April 2026 AD - 8 Dhul Hijjah 1447 AH
-# Purpose = Citation File Format for all versions via Concept DOI
-
-cff-version: 1.2.0
-message: "If you use Jabri-RiemannOS or Z(x) theory, please cite the Concept DOI below."
-type: software
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
 authors:
-    - family-names: Al-Jabri
-    given-names: Abdulla
-    orcid: https://orcid.org/0009-0003-3319-3822
-title: "Jabri-RiemannOS: Zero-Parameter Theory of Everything"
-version: 3.1.2
-doi: 10.5281/zenodo.19644688
-date-released: 2026-04-30
-repository-code: https://github.com/jabri62018/Jabri-RiemannOS
-url: "https://doi.org/10.5281/zenodo.19644688"
-keywords:
-    - Riemann Hypothesis
-    - Dark Energy
-    - Quantum Gravity
-    - Zeta Function
-    - Z(x) Field
-    - Hubble Tension
-    - Theory of Everything
-    - TOE
-    - Jabri Constant
-license: MIT
+- family-names: "Al-Jabri"
+  given-names: "Abdulla"
+  orcid: "https://orcid.org/0009-0003-3319-3381"
+
+title: "Jabri_RiemannOS"
+version: 1.0.0
+doi: 10.5281/zenodo.19981688
+date-released: 2026-05-23
+url: "https://github.com/Jabri62018/Jabri_RiemannOS"

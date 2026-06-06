@@ -1,86 +1,55 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+
+<!---file=index.html
+<!----repo=Jabri_RiemannOD
+
+
+<html lang="ar" dir="rtl" style="background:#000">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jabri-RiemannOS v1.1</title>
+<meta name="theme-color" content="#000">
+<title>Jabri-RiemannOS</title>
 <style>
-/* Ù‚ØªÙ„ Ø§Ù„Ø¨ÙŠØ¶Ø§Ø¡ Ù…Ù† Ø§Ù„Ø¬Ø°Ø± */
-:root,html,body{height:100%;margin:0;padding:0;background:#0a0a0a!important;color:#eee;font-family:tahoma,arial}
-
-/* Ø§Ù„Ø¯Ø±Ø¹ Ø§Ù„Ø§Ø³ÙˆØ¯ */
-#shield{position:fixed;top:0;left:0;width:100%;height:100%;background:#0a0a0a;z-index:9999}
-
-/* Ø§Ù„Ù…Ø­ØªÙˆÙ‰ */
-.wrap{
-  min-height:100vh;
-  display:flex;flex-direction:column;
-  align-items:center;text-align:center;
-  padding:20px;opacity:0;transition:opacity 0.5s;
-  background:#0a0a0a;
-}
-.top-bar{width:100%;display:flex;justify-content:space-between;padding:10px 0;font-size:14px;color:#aaa}
-h1{color:#00d4ff;margin:10px 0;font-size:5vw}
-.sub{color:#66ffcc;font-size:3vw;margin:5px 0}
-.desc{color:#aaa;font-size:2.5vw;margin:10px 0}
-.btns{display:flex;gap:15px;margin:20px 0}
-.btn{
-  padding:10px 25px;
-  background:#00d4ff;color:#000;
-  border:none;border-radius:8px;
-  font-weight:bold;font-size:3vw;
-  cursor:pointer
-}
-.section{color:#00ff88;font-size:3.5vw;margin:25px 0 10px}
-.list{color:#ccc;font-size:2.8vw;line-height:2}
-.avatar{
-  width:100px;height:100px;border-radius:50%;
-  border:3px solid #00d4ff;margin:15px 0;
-  background:#222;display:flex;align-items:center;justify-content:center;
-  color:#00d4ff;font-size:12px
-}
+html,body{margin:0;padding:0;height:100%;background:#000!important;color:#e0e0e0;font-family:Arial;text-align:center}
+#shield{position:fixed;inset:0;background:#000;z-index:99999}
+.page{opacity:0;transition:opacity 0.4s;background:#000;min-height:100svh;padding:30px;margin:0}
+img{border-radius:50%;width:140px;height:140px;border:4px solid #6ae3ff}
+h1{color:#6ae3ff;font-size:2.2em;margin:10px 0}
+h3{color:#6ae3ff;font-weight:400}
+.btn{display:inline-block;background:#6ae3ff;color:#000;text-decoration:none;padding:12px 24px;margin:6px;border-radius:8px;font-weight:bold}
+.btn:hover{background:#4dc3ff}
+.doi{color:#aaa;font-size:0.9em;margin-top:25px;margin-bottom:30px}
+h4{color:#6ae3ff;font-size:1.3em;margin-top:35px;margin-bottom:15px}
 </style>
+<script>document.documentElement.style.background='#000';</script>
 </head>
-<body>
+<body style="background:#000">
 
 <div id="shield"></div>
 
-<div class="wrap">
-  <div class="top-bar">
-    <span>âœ•</span>
-    <span>Ø§Ø³ØªØ¹Ø±Ø¶ Ø¹Ù„Ù‰ Jabri-RiemannOS â¤ï¸</span>
-    <span>â‹®</span>
-  </div>
+<div class="page">
+<img src="Jabri_photo.png" alt="Al-Jabri">
+<h1>Jabri-RiemannOS</h1>
+<h3>1†9. 1…71„01„71ƒ91†81†81‡1 1†91„51†91„7 1ƒ91†81„41„01„91‡4</h3>
+<p><b>Independent Researcher in Mathematics & Theoretical Physics</b></p>
 
-  <div class="avatar">ØµÙˆØ±Ø©</div>
-  
-  <h1>Jabri-RiemannOS v1.1</h1>
-  <div class="sub">Ù…. Ø¹Ø¨Ø¯Ø§Ù„Ù„Ù‡ Ù…Ø­Ù…Ø¯ Ù†Ø§ØµØ± Ø§Ù„Ø¬Ø¨Ø±ÙŠ</div>
-  <div class="desc">Independent Researcher in Mathematics & Theoretical Physics</div>
-  
-  <div class="btns">
-    <button class="btn">ØªÙ†Ø²ÙŠÙ„ Code</button>
-    <button class="btn">Ø²ÙŠØ§Ø±Ø© Ø§Ù„Ù…ÙˆÙ‚Ø¹</button>
-  </div>
-  
-  <div style="color:#888;font-size:2vw;margin:10px 0">DOI: 10.5281/zenodo.XXXXXXX</div>
-  
-  <div class="section">Ù…ÙƒØªØ¨Ø© Ø§Ù„Ø­Ø¶Ø§Ø±Ø© Ø§Ù„Ø¥Ø³Ù„Ø§Ù…ÙŠØ© ğŸ›ï¸</div>
-  <div class="list">
-    1. ÙƒØªØ¨ ØªØ§Ø±ÙŠØ®ÙŠØ© / History<br>
-    2. ÙƒØªØ¨ Ø­Ø³Ø§Ø¨ / Relations<br>
-    3. ØªØ±Ø§Ø« ÙŠÙ…Ù†ÙŠ / Yemen Tradition<br>
-    4. Ø§Ù„Ø³ÙŠØ§Ø­Ø© ÙÙŠ Ø§Ù„ÙŠÙ…Ù† / Yemen Tourist
-  </div>
+<a class="btn" href="https://github.com/Jabri-web">1…01‡41ƒ91„91„1 GitHub</a>
+<a class="btn" href="https://colab.research.google.com/github/Jabri-web/Jabri-RiemannOS/blob/main/Zx_all.ipynb">1„21…21…81‡41†8 Colab</a>
+<a class="btn" href="History-pdf.html">”9ß2 History PDFs</a>
+
+<p class="doi">DOI: 10.5281/zenodo.XXXXXXX</p>
+
+<h4>”9ê6 1†91†71„21„01„1 1ƒ91†81„51…41ƒ91„91„1 1ƒ91†81ƒ71…11†81ƒ91†91‡41„1</h4>
+<p style="color:#aaa;font-size:0.9em">1ƒ91…41…81…5 1ƒ91†81…01„9 1†51‡21†6 1†81†51„21„5 1ƒ91†81†91†71„21„01„1</p>
 </div>
 
 <script>
-// Ù†Ø´ÙŠÙ„ Ø§Ù„Ø¯Ø±Ø¹ Ø¨Ø¹Ø¯ Ø§Ù„ØªØ­Ù…ÙŠÙ„ Ø§Ù„ÙƒØ§Ù…Ù„
 window.addEventListener('load',function(){
-  document.getElementById('shield').style.display='none';
-  document.querySelector('.wrap').style.opacity='1';
+  setTimeout(function(){
+    document.getElementById('shield').style.display='none';
+    document.querySelector('.page').style.opacity='1';
+  },150);
 });
 </script>
-
-</body>
-</html>
+</body></html>

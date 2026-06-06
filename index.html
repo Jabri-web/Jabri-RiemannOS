@@ -1,7 +1,7 @@
 <!---repo=Jabri_RiemannOS
 <!-FILE=index.html
 
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
@@ -11,12 +11,12 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{
   height:100%;
-  background:#0a0a0a; /* الخلفية السوداء على الكل */
+  background:#0a0a0a;
 }
 body{
   color:#e0e0e0;
   font-family:Arial,sans-serif;
-  padding:0; /* شلت padding:20px عشان تروح الشاشة البيضاء */
+  padding:0;
   text-align:center
 }
 .topbar{
@@ -26,7 +26,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  margin:30px auto; /* خليت المارجن فوق وتحت بدل padding حق body */
+  margin:30px auto;
   max-width:500px
 }
 .topbar span{color:#aaa;font-size:16px}
@@ -45,8 +45,23 @@ h2{color:#6ae3ff;margin:20px 0 10px;font-size:18px;font-weight:400}
 .arrow{position:absolute;top:50%;transform:translateY(-50%);font-size:30px;color:#6ae3ff;cursor:pointer}
 .arrow.left{left:-40px}
 .arrow.right{right:-40px}
-.btn{background:#6ae3ff;color:#000;border:none;padding:10px 30px;border-radius:6px;font-weight:bold;cursor:pointer;margin:20px 0;font-size:16px}
+.btn{
+  background:#6ae3ff;
+  color:#000;
+  border:none;
+  padding:10px 30px;
+  border-radius:6px;
+  font-weight:bold;
+  cursor:pointer;
+  margin:10px 5px;
+  font-size:16px;
+  display:inline-block;
+  text-decoration:none;
+}
 .btn:hover{background:#4dc3ff}
+.buttons-wrapper{
+  margin:20px 0 40px 0;
+}
 .uploads{
   border:2px solid #444;
   border-radius:12px;
@@ -65,9 +80,9 @@ td{padding:12px 8px;border-bottom:1px solid #222;font-size:14px}
 <body>
 
 <div class="topbar">
-<span>”9Æ2</span>
+<span>Menu</span>
 <span>Jabri-web.org</span>
-<span>+ ¡õ 6å7</span>
+<span>+ Search</span>
 </div>
 
 <h2>Featured Communities</h2>
@@ -80,10 +95,16 @@ td{padding:12px 8px;border-bottom:1px solid #222;font-size:14px}
 <span class="arrow right">></span>
 </div>
 
-<button class="btn">Browse</button>
+<div class="buttons-wrapper">
+  <button class="btn">Browse</button>
+  <br>
+  <a href="#" class="btn">1- Colab trast</a>
+  <a href="https://github.com/Jabri-web" class="btn">2- Visit Profile</a>
+  <a href="#" class="btn">3- History Books</a>
+</div>
 
 <div class="uploads">
-<h3>¡ñ Recent Uploads</h3>
+<h3>Recent Uploads</h3>
 <table>
 <tr>
 <th>Date (V)</th>
@@ -93,13 +114,18 @@ td{padding:12px 8px;border-bottom:1px solid #222;font-size:14px}
 <tr>
 <td>Jabri-Identity</td>
 <td></td>
-<td><button class="open-btn">”9ä8 Open</button></td>
+<td><button class="open-btn">Open</button></td>
 </tr>
 <tr>
-<td>June1,2026 (v1)<br>Jabri-library</td>
+<td>June 1, 2026 (v1)<br>Jabri-library</td>
 <td>Database</td>
-<td><button class="open-btn">”9ä8 Open</button></td>
+<td><button class="open-btn">Open</button></td>
 </tr>
+</table>
+</div>
+
+</body>
+</html>
 </table>
 </div>
 

@@ -3,63 +3,62 @@
 <!---file=index.html
 <!----repo=Jabri_RiemannOD
 
-
-<html lang="ar" dir="rtl" style="background:#000">
+<html lang="ar" dir="rtl">
 <head>
+<script>
+// 丨乇亘 毓賱賶 丕賱亘賷囟丕亍: 賳丿賴賳 賯亘賱 賲丕 丕賱賲鬲氐賮丨 賷乇爻賲
+document.documentElement.style.background='#000';
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jabri-RiemannOS</title>
 
 <link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#000">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js');
-}
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
 </script>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#000">
-<title>Jabri-RiemannOS</title>
 <style>
-html,body{margin:0;padding:0;height:100%;background:#000!important;color:#e0e0e0;font-family:Arial;text-align:center}
-#shield{position:fixed;inset:0;background:#000;z-index:99999}
-.page{opacity:0;transition:opacity 0.4s;background:#000;min-height:100svh;padding:30px;margin:0}
+html,body{margin:0;padding:0;height:100%;background:#000;color:#e0e0e0;font-family:Arial;text-align:center;overflow:hidden}
+#shield{position:fixed;inset:0;background:#000;z-index:99999;transition:opacity .3s}
+.page{opacity:0;transition:opacity .4s;background:#000;min-height:100svh;padding:30px;margin:0}
 img{border-radius:50%;width:140px;height:140px;border:4px solid #6ae3ff}
 h1{color:#6ae3ff;font-size:2.2em;margin:10px 0}
 h3{color:#6ae3ff;font-weight:400}
 .btn{display:inline-block;background:#6ae3ff;color:#000;text-decoration:none;padding:12px 24px;margin:6px;border-radius:8px;font-weight:bold}
-.btn:hover{background:#4dc3ff}
-.doi{color:#aaa;font-size:0.9em;margin-top:25px;margin-bottom:30px}
+.doi{color:#aaa;font-size:0.9em;margin-top:25px}
 h4{color:#6ae3ff;font-size:1.3em;margin-top:35px;margin-bottom:15px}
 </style>
-<script>document.documentElement.style.background='#000';</script>
 </head>
-<body style="background:#000">
-
+<body>
 <div id="shield"></div>
 
 <div class="page">
 <img src="Jabri_photo.png" alt="Al-Jabri">
 <h1>Jabri-RiemannOS</h1>
-<h3>م. عبدالله محمد الجبري</h3>
+<h3>亘丕丨孬 賲爻鬲賯賱 賮賷 丕賱乇賷丕囟賷丕鬲 賵丕賱賮賷夭賷丕亍 丕賱賳馗乇賷丞</h3>
 <p><b>Independent Researcher in Mathematics & Theoretical Physics</b></p>
 
-<a class="btn" href="https://github.com/Jabri-web">زيارة GitHub</a>
-<a class="btn" href="https://colab.research.google.com/github/Jabri-web/Jabri-RiemannOS/blob/main/Zx_all.ipynb">تشغيل Colab</a>
-<a class="btn" href="History-pdf.html">📚 History PDFs</a>
+<a class="btn" href="https://github.com/Jabri-web">夭賷丕乇丞 GitHub</a>
+<a class="btn" href="https://colab.research.google.com/github/Jabri-web/Jabri-RiemannOS/blob/main/Zx_all.ipynb">賮鬲丨 Colab</a>
+<a class="btn" href="History-pdf.html">History PDFs</a>
 
 <p class="doi">DOI: 10.5281/zenodo.XXXXXXX</p>
 
-<h4>🕌 مكتبة الحضارة الإسلامية</h4>
-<p style="color:#aaa;font-size:0.9em">اضغط الزر فوق لفتح المكتبة</p>
+<h4>賲賰鬲亘丞 丕賱兀亘丨丕孬 丕賱毓賱賲賷丞</h4>
+<p style="color:#aaa;font-size:0.9em">噩賲賷毓 丕賱丨賯賵賯 賲丨賮賵馗丞 賱賱亘丕丨孬 丕賱噩亘乇賷</p>
 </div>
 
 <script>
 window.addEventListener('load',function(){
   setTimeout(function(){
-    document.getElementById('shield').style.display='none';
+    document.getElementById('shield').style.opacity='0';
     document.querySelector('.page').style.opacity='1';
-  },150);
+    setTimeout(()=>document.getElementById('shield').remove(),300);
+  },100);
 });
 </script>
 </body></html>

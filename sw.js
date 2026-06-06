@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jabri-riemann-v2';
+const CACHE_NAME = 'Jabri-RiemannOS';
 const FILES = [
   './index.html',
   './manifest.json',

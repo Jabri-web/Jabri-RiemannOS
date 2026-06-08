@@ -84,7 +84,7 @@
 
 ## 5. T₀₀ and T₀₁ Energy Flow
 
-![T00 and T01](Z_t01.png)
+![T00 and T01](/Image/Z_t01.png)
 
 *Figure 4: Energy density T₀₀ and energy flow T₀₁ from Z(x). Local flow explains SH0ES vs Planck discrepancy.*
 
@@ -103,18 +103,18 @@
 ## 📂 Repository Files v3.1.2
 
 ### Core Theory
-1. `Zx_Mother_Function.pdf` - Complete paper with all derivations
-2. `Z_total_v1.tex` - LaTeX source
+1. `/Db-pdf/Zx_Mother_Function.pdf` - Complete paper with all derivations
+2. `/Tex/Z_total_v1.tex` - LaTeX source
 
 ### Cosmology & Simulations  
-3. `Zx_Hubble.ipynb` - Reproduce H₀ = 67.4 solution
-4. `Zx_Spacetime_Wells.*` - 6 wells data, code, plots
-5. `Zx_Periodic_Hierarchy.*` - Z=119 prediction
-6. `Zx_Planck_Epoch.ipynb` - Dynamic constants
+3. `/Ipynb/Zx_Hubble.ipynb` - Reproduce H₀ = 67.4 solution
+4. `/Ipynb/Zx_Spacetime_Wells.*` - 6 wells data, code, plots
+5. `/Ipynb/Zx_Periodic_Hierarchy.*` - Z=119 prediction
+6. `/Ipynb/Zx_Planck_Epoch.ipynb` - Dynamic constants
 
 ### Visualizations
-7. `Z_Universe_nova.png` - Cosmic evolution simulation
-8. `Z_zeros.png` - Riemann zeros visualization
+7. `/Image/Z_Universe_nova.png` - Cosmic evolution simulation
+8. `/Image/Z_zeros.png` - Riemann zeros visualization
 
 ## 📜 Citation v3.1.2
 

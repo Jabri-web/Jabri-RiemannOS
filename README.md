@@ -54,7 +54,7 @@
 
 ## 2. Hubble Tension Solution: JR = ∞ at γ₅
 
-![Universe Now](Universe_now.png)
+![Universe Now](/Image/Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*

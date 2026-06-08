@@ -1,5 +1,7 @@
 <!- file= Dbase.html
 <!- repo= Jabri_RiemannOS
+<!-file=Dbase.html
+<!--repo= Jabri_RiemannOS
 
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -8,42 +10,118 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#000">
 <meta name="color-scheme" content="dark">
-<title>Jabri Repos Hub - من 1 الى 10</title>
+<title>Dbase - قاعدة البيانات الكاملة</title>
 <style>
   :root{color-scheme:dark}
   *{margin:0;padding:0;box-sizing:border-box}
-  html,body{min-height:100svh;background:#000!important;color:#e0e0e0;font-family:'Cairo',Tahoma,sans-serif;text-align:center;padding:25px 20px}
+  html,body{min-height:100svh;background:#000!important;color:#e0e0e0;font-family:'Cairo',Tahoma,sans-serif;padding:25px 20px}
   
-  h1{color:#6ae3ff;font-size:24px;margin:10px 0 25px}
-  .container{max-width:600px;margin:0 auto}
-  ul{list-style:none;padding:0}
-  li{background:#0a0a0a;border:1px solid #1e1e2f;border-radius:10px;margin:12px 0;padding:14px;text-align:right}
-  .badge{display:inline-block;background:#00ffc8;color:#000;font-weight:bold;padding:4px 10px;border-radius:6px;margin-left:8px}
-  a{color:#00ffc8;text-decoration:none;font-size:16px;font-weight:bold}
-  a:hover{color:#6ae3ff}
-  .desc{color:#777;font-size:12px;margin-right:8px}
+  body::before{content:"";position:fixed;inset:0;background:#000;z-index:-1}
+  
+  h1{color:#6ae3ff;font-size:26px;text-align:center;margin:10px 0 25px}
+  .wrap{max-width:700px;margin:0 auto}
+  
+  .repo{margin:20px 0;padding:16px;background:#0a0a0a;border:1px solid #1e1e2f;border-radius:12px;text-align:right}
+  .repo:active{border-color:#00ffc8;background:#111}
+  
+  .num{display:inline-block;background:#00ffc8;color:#000;font-weight:bold;padding:4px 10px;border-radius:6px;margin-left:8px;font-size:14px}
+  .title{font-size:18px;color:#00ffc8;font-weight:bold;margin-bottom:8px}
+  a{color:#6ae3ff;text-decoration:none;display:block;margin:6px 0;font-size:14px;word-break:break-all}
+  a:hover{color:#00ffc8;text-decoration:underline}
+  
+  .sub{margin-right:25px;font-size:13px;color:#aaa}
+  .sub a{font-size:13px;color:#aaa}
+  
   .back{position:fixed;top:10px;right:10px;background:#c62828;color:#fff;border:none;padding:8px 15px;border-radius:8px;font-weight:bold;z-index:11;font-size:14px}
+  
+  hr{border:none;border-top:1px solid #1e1e2f;margin:25px 0}
 </style>
 </head>
 <body>
 
 <button class="back" onclick="location.href='index.html'">← رجوع</button>
 
-<div class="container">
-  <h1>🚀 Jabri Repos Hub - من 1 الى 10</h1>
+<div class="wrap">
+  <h1>📊 Dbase - قاعدة البيانات الكاملة P8</h1>
   
-  <ul>
-    <li><span class="badge">1</span> <a href="https://jabri-web.github.io/jabri62018.github.io/">jabri62018.github.io</a> <span class="desc">- P1 Resource</span></li>
-    <li><span class="badge">2</span> <a href="https://jabri-web.github.io/Zx_RieOS_v1.1/">Zx_RieOS_v1.1</a> <span class="desc">- Project Page</span></li>
-    <li><span class="badge">3</span> <a href="https://jabri-web.github.io/Zx_Mother_Function_Jabri/">Zx_Mother_Function_Jabri</a> <span class="desc">- Mother Function</span></li>
-    <li><span class="badge">4</span> <a href="https://jabri-web.github.io/">Jabri-web.github.io</a> <span class="desc">- Hub الرئيسي</span></li>
-    <li><span class="badge">5</span> <a href="https://jabri-web.github.io/Jabri_Nobble/">Jabri_Nobble</a> <span class="desc">- Zx_RiemannOS Archive</span></li>
-    <li><span class="badge">6</span> <a href="https://jabri-web.github.io/Jabri_lab/">Jabri_lab</a> <span class="desc">- Millennium Problems</span></li>
-    <li><span class="badge">7</span> <a href="https://jabri-web.github.io/Zx_RieOS_v1.2/">Zx_RieOS_v1.2</a> <span class="desc">- RieOS v1.2</span></li>
-    <li><span class="badge">8</span> <a href="https://jabri-web.github.io/Jabri-RiemannOS/">Jabri_RiemannOS</a> <span class="desc">- RiemannOS</span></li>
-    <li><span class="badge">9</span> <a href="https://jabri-web.github.io/Jabri_Checkout/">Jabri_Checkout</a> <span class="desc">- Checkout</span></li>
-    <li><span class="badge">10</span> <a href="https://jabri-web.github.io/Jabri-web/">Jabri-web</a> <span class="desc">- Backup of P4</span></li>
-  </ul>
+  <div class="repo">
+    <div class="title"><span class="num">1</span> Jabri6218.github.io</div>
+    <a href="https://jabri-web.github.io/jabri62018.github.io/">https://jabri-web.github.io/jabri62018.github.io/</a>
+    <a href="https://doi.org/10.5281/zenodo.20403864">DOI: 10.5281/zenodo.20403864</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">2</span> Zx_RieOS_v1.2</div>
+    <a href="https://jabri-web.github.io/Zx_RieOS_v1.2/">https://jabri-web.github.io/Zx_RieOS_v1.2/</a>
+    <a href="https://doi.org/10.5281/zenodo.20100622">DOI: 10.5281/zenodo.20100622</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">3</span> Zx_Mother_Function_Jabri</div>
+    <a href="https://Jabri-web.github.io/Zx_Mother_Function_Jabri/">https://Jabri-web.github.io/Zx_Mother_Function_Jabri/</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">4</span> Jabri-web.github.io</div>
+    <a href="https://Jabri-web.github.io/">https://Jabri-web.github.io/</a>
+    <a href="https://doi.org/10.5281/zenodo.20499365">DOI: 10.5281/zenodo.20499365</a>
+    <a href="https://doi.org/10.5281/zenodo.20404167">DOI: 10.5281/zenodo.20404167</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">5</span> Jabri_Nobble</div>
+    <a href="https://jabri-web.github.io/Jabri_Nobble/">https://jabri-web.github.io/Jabri_Nobble/</a>
+    <a href="https://doi.org/10.5281/zenodo.20148770">DOI: 10.5281/zenodo.20148770</a>
+    <div class="sub">
+      <div>#5-1 Jabri_Riemann</div>
+      <a href="https://doi.org/10.5281/zenodo.20139904">DOI: 10.5281/zenodo.20139904</a>
+      <a href="https://doi.org/10.5281/zenodo.20145337">DOI: 10.5281/zenodo.20145337</a>
+      <div>#5-2 Jabri_np</div>
+      <a href="https://doi.org/10.5281/zenodo.20145279">DOI: 10.5281/zenodo.20145279</a>
+      <div>#5-3 Jabri_gab</div>
+      <a href="https://doi.org/10.5281/zenodo.20148344">DOI: 10.5281/zenodo.20148344</a>
+      <div>#5-4 Jabri_Navier</div>
+      <a href="https://doi.org/10.5281/zenodo.20149618">DOI: 10.5281/zenodo.20149618</a>
+      <div>#5-5 Jabri_Birch</div>
+      <div>#5-6 Jabri_Hodge</div>
+      <div>#5-7 Jabri_Identity</div>
+      <a href="https://doi.org/10.5281/zenodo.20114317">DOI: 10.5281/zenodo.20114317</a>
+    </div>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">6</span> Jabri_lab</div>
+    <a href="https://Jabri-web.github.io/Jabri_lab/">https://Jabri-web.github.io/Jabri_lab/</a>
+    <div class="sub">
+      <div>#6-1 Jabri_5 | #6-2 Jabri_28 | #6-3 Jabri_Gravity</div>
+      <div>#6-4 Jabri_Spacetime | #6-5 Jabri_Darkenergy | #6-6 Jabri_Planck</div>
+      <div>#6-7 Jabri_Hubble | #6-8 Jabri_Periodic | #6-9 Jabri_all</div>
+    </div>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">7</span> Zx_RieOS_v1.1</div>
+    <a href="https://Jabri-web.github.io/Zx_RieOS_v1.1/">https://Jabri-web.github.io/Zx_RieOS_v1.1/</a>
+    <a href="https://doi.org/10.5281/zenodo.19981688">DOI: 10.5281/zenodo.19981688</a>
+    <a href="https://doi.org/10.5281/zenodo.20070594">DOI: 10.5281/zenodo.20070594</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">8</span> Jabri_RiemannOS</div>
+    <a href="https://Jabri-web.github.io/Jabri_RiemannOS/">https://Jabri-web.github.io/Jabri_RiemannOS/</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">9</span> Jabri_Checkout</div>
+    <a href="https://Jabri-web.github.io/Jabri_Checkout/">https://Jabri-web.github.io/Jabri_Checkout/</a>
+    <a href="https://doi.org/10.5281/zenodo.20513840">DOI: 10.5281/zenodo.20513840</a>
+  </div>
+
+  <div class="repo">
+    <div class="title"><span class="num">10</span> Jabri-web</div>
+    <a href="https://Jabri-web.github.io/Jabri-web/">https://Jabri-web.github.io/Jabri-web/</a>
+    <a href="https://doi.org/10.5381/zenodo.20499365">DOI: 10.5381/zenodo.20499365</a>
+  </div>
 </div>
 
 </body>

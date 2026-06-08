@@ -38,10 +38,10 @@
 
 ## 1. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
-![Spacetime Wells](Zx_Spacetime_Wells.png)
+![Spacetime Wells](/Image/Zx_Spacetime_Wells.png)
 
 *Figure 1: Well 5 at γ₅=32.935062 → Z'(x)=0 → Dark Energy w = -1.03*  
-*Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)*
+*Run: [`/Ipynb/Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)*
 
 | Well | γₙ | Physics | Z(x) Prediction | Status |
 | --- | --- | --- | --- | --- |
@@ -63,14 +63,14 @@
 
 ## 3. Island of Stability Z=119
 
-![Periodic Table](Periodic_Table.png)
+![Periodic Table](/Image/Periodic_Table.png)
 
 **Prediction:** Well 5 maps to element Z=119. Half-life ~10⁵ years. Peak of stability island.  
-*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
+*Run: [`/Ipynb/Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
 
 ## 4. Dynamic Planck Units
 
-![Z(x) Planck Movie](Zx_Plank_Movie.png)
+![Z(x) Planck Movie](/Image/Zx_Plank_Movie.png)
 
 *Figure 3: All fundamental constants are coordinates on Z(x) curve.*
 

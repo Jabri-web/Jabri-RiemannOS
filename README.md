@@ -113,7 +113,7 @@
 6. `/Ipynb/Zx_Planck_Epoch.ipynb` - Dynamic constants
 
 ### Visualizations
-7. `/Image/Z_Universe_nova.png` - Cosmic evolution simulation
+7. `/Image/Z_Universe_now.png` - Cosmic evolution simulation
 8. `/Image/Z_zeros.png` - Riemann zeros visualization
 
 ## 📜 Citation v3.1.2

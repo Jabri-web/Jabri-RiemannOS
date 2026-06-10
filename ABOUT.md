@@ -29,15 +29,15 @@
 
 ## 🚀 Run Live - Reproduce All Results in 60 Seconds
 [[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
-[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)
-[[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)
+[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)
+[[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)
 
 ## 1. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 ![Spacetime Wells](Zx_Spacetime_Wells.png)
 
 *Figure 1: Well 5 at γₙ=32.935062 → Z'(x)=0 → Dark Energy w = -1.03*  
-*Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Spacetime_Wells.ipynb)*
+*Run: [`/Python/Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)*
 
 | Well | γₙ | Physics | Z(x) Prediction | Status |
 | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@
 
 ## 2. Hubble Tension Solution: JR = ∞ at γₙ
 
-![Universe Now](Universe_now.png)
+![Universe Now](/Image/Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*

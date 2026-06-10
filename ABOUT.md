@@ -28,7 +28,7 @@
 - **Master Concept DOI:** https://doi.org/10.5281/zenodo.19644689
 
 ## 🚀 Run Live - Reproduce All Results in 60 Seconds
-[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)
+[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)
 [[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)
 [[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)
 
@@ -53,20 +53,20 @@
 ![Universe Now](/Image/Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
-*Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Hubble.ipynb)*
+*Run: [`/Python/Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main//Python/Zx_Hubble.ipynb)*
 
 **Result:** G_eff = G_N/Z'(x) → H₀ = 67.4 Planck & 73.0 SH0ES. **Tension = 0.0σ**
 
 ## 3. Island of Stability Z=119
 
-![Periodic Table](Periodic_Table.png)
+![/Image/Periodic Table](Periodic_Table.png)
 
 **Prediction:** Well 5 maps to element Z=119. Half-life ~10⁷ years. Peak of stability island.  
-*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Zx_Periodic_Hierarchy.ipynb)*
+*Run: [`/Python/Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)*
 
 ## 4. Dynamic Planck Units
 
-![Z(x) Planck Movie](Zx_Plank_Movie.png)
+![Z(x) Planck Movie](/Image/Zx_Plank_Movie.png)
 
 *Figure 3: All fundamental constants are coordinates on Z(x) curve.*
 

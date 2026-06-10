@@ -1,8 +1,9 @@
-#ABOUT.md
+# ABOUT.md
 #repo=8-Jabri_RiemannOS
+
 <div align="center">
 
-<img src="/Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
+<img src="Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
 
 # Eng. Abdulla Mohammed Nasser Al-Jabri
 ### م. عبدالله محمد ناصر الجبري
@@ -13,11 +14,11 @@
 **Research Focus:** Zx Function & Millennium Problems  
 **مجال البحث:** دالة Zx ومسائل الألفية
 
-[[Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
+[![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
 
-[[Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
-[[GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
-[[GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
+[![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
+[![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
 
 ---
 
@@ -28,16 +29,16 @@
 - **Master Concept DOI:** https://doi.org/10.5281/zenodo.19644689
 
 ## 🚀 Run Live - Reproduce All Results in 60 Seconds
-[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)
-[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)
-[[Open Z=119](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)
 
 ## 1. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 ![Spacetime Wells](Zx_Spacetime_Wells.png)
 
 *Figure 1: Well 5 at γₙ=32.935062 → Z'(x)=0 → Dark Energy w = -1.03*  
-*Run: [`/Python/Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)*
+*Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)*
 
 | Well | γₙ | Physics | Z(x) Prediction | Status |
 | --- | --- | --- | --- | --- |
@@ -50,23 +51,23 @@
 
 ## 2. Hubble Tension Solution: JR = ∞ at γₙ
 
-![Universe Now](/Image/Universe_now.png)
+![Universe Now](Image/Universe_now.png)
 
 *Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
-*Run: [`/Python/Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main//Python/Zx_Hubble.ipynb)*
+*Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)*
 
 **Result:** G_eff = G_N/Z'(x) → H₀ = 67.4 Planck & 73.0 SH0ES. **Tension = 0.0σ**
 
 ## 3. Island of Stability Z=119
 
-![/Image/Periodic Table](Periodic_Table.png)
+![Periodic Table](Image/Periodic_Table.png)
 
 **Prediction:** Well 5 maps to element Z=119. Half-life ~10⁷ years. Peak of stability island.  
-*Run: [`/Python/Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)*
+*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)*
 
 ## 4. Dynamic Planck Units
 
-![Z(x) Planck Movie](/Image/Zx_Plank_Movie.png)
+![Z(x) Planck Movie](Image/Zx_Plank_Movie.png)
 
 *Figure 3: All fundamental constants are coordinates on Z(x) curve.*
 

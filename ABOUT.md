@@ -1,129 +1,95 @@
-# ABOUT.md
-#repo=8-Jabri_RiemannOS
+<!-- ===== Language Switch Bar (English Active) ===== -->
+<div align="center" style="margin: 10px 0 20px 0; padding: 8px; background: #161b22; border-radius: 30px; display: inline-block; width: auto; border: 1px solid #30363d;">
+    <a href="./ABOUT.md" style="background: #6ae3ff; color: #0a0a0f; padding: 6px 22px; border-radius: 20px; text-decoration: none; font-weight: bold; font-size: 14px; margin: 0 5px; display: inline-block;">
+        🇬🇧 English (Default)
+    </a>
+    <a href="./ABOUT-AR.md" style="background: transparent; color: #c9d1d9; padding: 6px 22px; border-radius: 20px; text-decoration: none; font-weight: bold; font-size: 14px; margin: 0 5px; display: inline-block; border: 1px solid #30363d;">
+        🇾🇪 العربية
+    </a>
+</div>
+
+---
+
+# 📌 Repository Identity Card
+
+| Field | Details |
+| :--- | :--- |
+| **Repository Name** | `Jabri_RiemannOS` |
+| **GitHub Repo** | [https://github.com/Jabri-web/Jabri_RiemannOS](https://github.com/Jabri-web/Jabri_RiemannOS) |
+| **GitHub Pages** | [https://jabri-web.github.io/Jabri-RiemannOS/](https://jabri-web.github.io/Jabri-RiemannOS/) |
+| **Current File** | `./ABOUT.md` (English) |
+| **Language** | English (Default) / العربية (Alternative) |
+| **DOI** | `-` (Not yet assigned) |
+| **Author** | [Eng. Abdulla Mohammed Nasser Al-Jabri](https://github.com/Jabri-web) |
+| **License** | CC BY 4.0 |
+| **Identity** | `Z + C + A = 1` |
+
+---
+
+# 🖥️ Jabri_RiemannOS
+
+**Dedicated OS Framework for the Riemann Hypothesis – Computational & Theoretical Exploration**
+
+---
 
 <div align="center">
-
-<img src="Image/Jabri-photo.png" width="140" height="140" style="border-radius:50%; border:4px solid #6ae3ff; object-fit:cover;">
-
-# Eng. Abdulla Mohammed Nasser Al-Jabri
-### م. عبدالله محمد ناصر الجبري
-
-**Independent Researcher in Mathematics & Theoretical Physics**  
-**باحث مستقل في الرياضيات والفيزياء النظرية**
-
-**Research Focus:** Zx Function & Millennium Problems  
-**مجال البحث:** دالة Zx ومسائل الألفية
-
-[![Visit Profile](https://img.shields.io/badge/Visit-GitHub%20Profile-6ae3ff?style=for-the-badge&logo=github)](https://github.com/Jabri-web)
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Jabri-web&color=6ae3ff&style=for-the-badge&label=Visitors)](https://github.com/Jabri-web)
-[![GitHub Stars](https://img.shields.io/github/stars/Jabri-web?color=yellow&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=repositories)
-[![GitHub Followers](https://img.shields.io/github/followers/Jabri-web?color=green&style=for-the-badge&logo=github)](https://github.com/Jabri-web?tab=followers)
+  <img src="Image/Dar2.png" width="80%" style="border-radius: 12px; border: 2px solid #6ae3ff;" alt="Dar Al-Hajar, Yemen">
+  <p><i>🏛️ Dar Al-Hajar, Yemen – The heritage that bridges the ancient past to the future of mathematics.</i></p>
+</div>
 
 ---
 
-## 📦 Official Release v3.1.2
-- **GitHub Release:** [v3.1.2 Latest](https://github.com/jabri62018/Jabri-RiemannOS/releases/tag/v3.1.2)
-- **DOI:** https://doi.org/10.5281/zenodo.19897247
-- **OpenAIRE:** https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.19897247
-- **Master Concept DOI:** https://doi.org/10.5281/zenodo.19644689
+## 📖 About This Repository
 
-## 🚀 Run Live - Reproduce All Results in 60 Seconds
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)
+**Jabri_RiemannOS** is a specialized operating system framework dedicated entirely to the exploration and validation of the **Riemann Hypothesis**. It contains deep computational tools, numerical algorithms, and theoretical proofs specifically tailored for this millennium problem.
 
-## 1. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
+This repository integrates the **Zx Mother Function** framework with advanced number‑theoretic computations to provide a unified environment for studying the zeros of the Riemann Zeta function and their physical implications.
 
-![Spacetime Wells](Zx_Spacetime_Wells.png)
-
-*Figure 1: Well 5 at γₙ=32.935062 → Z'(x)=0 → Dark Energy w = -1.03*  
-*Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Spacetime_Wells.ipynb)*
-
-| Well | γₙ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
-| 1 | 14.134725 | Inflation End | t = 10⁻³⁴ s | Verified |
-| 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
-| 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
-| 4 | 30.424876 | QCD | Λ = 200 MeV | Verified |
-| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024 ✓** |
-| 6 | 37.586178 | Planck | M_pl = 10¹⁹ GeV | Verified |
-
-## 2. Hubble Tension Solution: JR = ∞ at γₙ
-
-![Universe Now](Image/Universe_now.png)
-
-*Figure 2: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
-*Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Hubble.ipynb)*
-
-**Result:** G_eff = G_N/Z'(x) → H₀ = 67.4 Planck & 73.0 SH0ES. **Tension = 0.0σ**
-
-## 3. Island of Stability Z=119
-
-![Periodic Table](Image/Periodic_Table.png)
-
-**Prediction:** Well 5 maps to element Z=119. Half-life ~10⁷ years. Peak of stability island.  
-*Run: [`Zx_Periodic_Hierarchy.ipynb`](https://colab.research.google.com/github/jabri62018/Jabri-RiemannOS/blob/main/Python/Zx_Periodic_Hierarchy.ipynb)*
-
-## 4. Dynamic Planck Units
-
-![Z(x) Planck Movie](Image/Zx_Plank_Movie.png)
-
-*Figure 3: All fundamental constants are coordinates on Z(x) curve.*
-
-| Epoch | x = ln(t/t_P) | Physics Born | Z(x) Result |
-| --- | --- | --- | --- |
-| Big Bang | φ = 1.618 | Spacetime | Z > 0 → Universe starts |
-| Gravity | 12 | G ∝ 1/Z' | Gravity born |
-| Dark Energy | γₙ = 32.935 | Λ | Z' = 0 → w = -1.03 |
-| EM Force | 137.036 | α | Z ≈ α⁻¹ |
-| Today | 321 | T₀ flow | H₀,local = 73.0 |
-
-## 5. T₀ and T₀₁ Energy Flow
-
-![T00 and T01](Z_t01.png)
-
-*Figure 4: Energy density T₀ and energy flow T₀₁ from Z(x). Local flow explains SH0ES vs Planck discrepancy.*
+**Key Features:**
+- 🧮 **Zero‑Counting Algorithms** – High‑precision computation of Zeta zeros on the critical line.
+- 📊 **Visualization Suite** – Interactive plots of Zeta and Zx functions.
+- 📓 **Reproducible Notebooks** – Jupyter notebooks for every experiment.
+- 🔗 **Zx Integration** – Full compatibility with the Zx framework and Al‑Jabri Identity (`Z + C + A = 1`).
+- 📄 **Theoretical Documentation** – Proofs and derivations in LaTeX.
 
 ---
 
-## ⚖️ Falsifiability - This is Science
+## 🗂️ Repository Structure
 
-**If any of these fail, Z(x) is dead. No shadow field. No escape.**
-
-1. If DESI-3 or CMB-S4 measure w_de ≠ -1.03 ± 0.01 → **Model falsified**
-2. If GSI/JINR synthesize Z=119 and τ < 1 year → **Model falsified**  
-3. If H(z) at z>3 deviates from Z(x) prediction by >1% → **Model falsified**
+| Directory / File | Description |
+| :--- | :--- |
+| `Python/` | Core algorithms and scripts for zero‑counting and validation. |
+| `Notebooks/` | Jupyter notebooks for interactive exploration (`Riemann_zeros.ipynb`, `Zx_integration.ipynb`). |
+| `Data/` | CSV datasets of computed zeros and related constants. |
+| `Image/` | Generated figures and plots. |
+| `Tex/` | LaTeX sources for theoretical papers and proofs. |
+| `docs/` | Comprehensive documentation and user guides. |
 
 ---
 
-## 📦 Repository Files v3.1.2
+## 🧪 Key Algorithms
 
-### Core Theory
-1. `Zx_Mother_Function.pdf` - Complete paper with all derivations
-2. `Z_total_v1.tex` - LaTeX source
+| Algorithm | Description | Status |
+| :--- | :--- | :--- |
+| **Zeta Zero Finder** | High‑precision computation of zeros using the Riemann–Siegel formula. | ✅ Stable |
+| **Zx Zero Mapper** | Maps Zeta zeros to the Zx function parameters. | ✅ Verified |
+| **Critical Line Tester** | Verifies that all computed zeros lie on Re(s) = ½. | ✅ Verified |
+| **Statistical Analyzer** | Analyzes zero distributions and spacing statistics. | ✅ In Progress |
 
-### Cosmology & Simulations  
-3. `Zx_Hubble.ipynb` - Reproduce H₀ = 67.4 solution
-4. `Zx_Spacetime_Wells.*` - 6 wells data, code, plots
-5. `Zx_Periodic_Hierarchy.*` - Z=119 prediction
-6. `Zx_Planck_Epoch.ipynb` - Dynamic constants
+---
 
-### Visualizations
-7. `Z_Universe_nova.png` - Cosmic evolution simulation
-8. `Z_zeros.png` - Riemann zeros visualization
+## 📊 Visualization Examples
 
-## 📚 Citation v3.1.2
+![Riemann Zeros](Image/Zx_zeros.png)  
+*Figure 1: First 6 zeros on the critical line. Generated by the RiemannOS suite.*
 
-If you use this work, please cite:
+![Zx Integration](Image/Zx_Jabri_Universe.png)  
+*Figure 2: Zx function overlay showing the connection between zeros and physical constants.*
 
-```bibtex
-@software{aljabri2026zx_v312,
-  author = {Al-Jabri, Abdullah},
-  title = {Jabri_RiemannOS v3.1.2: Z(x) Mother Function - Zero-Parameter Theory of Everything},
-  month = apr,
-  year = 2026,
-  publisher = {Zenodo},
-  version = {v3.1.2},
-  doi = {10.5281/zenodo.19897247},
-  url = {https://github.com/jabri62018/Jabri-RiemannOS}
+---
+
+## 🔬 How to Reproduce
+
+```bash
+pip install mpmath numpy pandas matplotlib jupyter
+jupyter notebook Notebooks/Riemann_zeros.ipynb
